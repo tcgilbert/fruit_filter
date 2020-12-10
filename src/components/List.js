@@ -1,4 +1,4 @@
-import React, { Componeny } from 'react';
+import React, { Component } from 'react';
 
 class List extends Component {
 
@@ -10,7 +10,9 @@ class List extends Component {
   render() {
     return (
       <div>
-        <h1>List</h1>
+        <ul>
+          {/* list will go here */}
+        </ul>
       </div>
     )
   }
