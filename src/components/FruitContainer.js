@@ -7,7 +7,7 @@ class FruitContainer extends Component {
     super();
     this.state = {
       // initialize the fruit list using the list passed from props
-      fruitsToDisplay: this.props.fruits,
+      fruitsToDisplay: props.fruits,
       //initialize filter value as empty string
       filterValue: "",
     };
@@ -28,6 +28,7 @@ class FruitContainer extends Component {
   };
 
   render() {
+    console.log(this.state.fruitsToDisplay);
     return (
       <div>
         <Input
